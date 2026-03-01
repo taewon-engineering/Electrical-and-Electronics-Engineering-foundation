@@ -18,7 +18,7 @@ The unit vector \hat{r} determines direction:
 - If charges have same sign → repulsive force
 - If charges have opposite sign → attractive force
 
-Why does the force decrease as 1/r²?
+## Why does the force decrease as 1/r²?
 
 When I first saw Coulomb’s law, I just memorized that the force decreases as 
 1
