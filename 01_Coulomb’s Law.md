@@ -1,17 +1,19 @@
-Coulomb’s Law – Mathematical Structure and Physical Meaning
-- Coulom's law decribes electric force between two point charges.
-Maginitue of the force
-$
+## Coulomb’s Law – Mathematical Structure and Physical Meaning
+Coulom's law decribes electric force between two point charges.
+### Maginitue of the force
+$$
 F = (1/4πϵ0)(∣q1​q2​∣/r^2) = k(∣q1​q2​∣/r^2)
 $$
+
 q1 and q2: charges
 r: distance
 ϵ0: permittivity of free space
 
-Vector form
-$
+### Vector form
+$$
 F = (1/4πϵ0)(q1​q2​/r^2)hat{r}
 $$
+
 The unit vector hat{r} determines direction:
 - If charges have same sign → repulsive force
 - If charges have opposite sign → attractive force
