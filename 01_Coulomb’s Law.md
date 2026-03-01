@@ -1,6 +1,6 @@
-## Coulomb’s Law – Mathematical Structure and Physical Meaning
-Coulom's law decribes electric force between two point charges.
-### Maginitue of the force
+## Coulomb’s Law – Basic
+Coulomb's law decribes electric force between two point charges.
+### Magnitude of the force
 $$
 F = (1/4πϵ0)(∣q1​q2​∣/r^2) = k(∣q1​q2​∣/r^2)
 $$
@@ -11,78 +11,56 @@ r: distance
 
 ### Vector form
 $$
-F = (1/4πϵ0)(q1​q2​/r^2)hat{r}
+F = (1/4πϵ0)(q1​q2​/r^2)\hat{r}
 $$
 
-The unit vector hat{r} determines direction:
+The unit vector \hat{r} determines direction:
 - If charges have same sign → repulsive force
 - If charges have opposite sign → attractive force
 
-## Why the Inverse Square Law?
+Why does the force decrease as 1/r²?
 
-### 1. The Core Question
+When I first saw Coulomb’s law, I just memorized that the force decreases as 
+1
+/
+𝑟
+2
+1/r
+2
+.
+But later I tried to understand why it is squared.
 
-Why does electric force decrease as $1/r^2$?
-
----
-
-### 2. Spherical Symmetry
-
-A point charge spreads its electric influence equally in all directions.
-This is called spherical symmetry.
-
----
-
-### 3. Surface Area of a Sphere
+If we imagine a point charge, its electric influence spreads equally in all directions.
+This means it spreads out in a spherical shape.
 
 The surface area of a sphere is:
 
-$$
-A = 4\pi r^2
-$$
+𝐴
+=
+4
+𝜋
+𝑟
+2
+A=4πr
+2
 
-As the radius increases, the surface area grows proportionally to $r^2$.
+As the distance 
+𝑟
+r increases, the surface area becomes larger.
+If the same electric influence spreads over a larger area, the intensity must decrease.
 
----
+That is why the force becomes smaller as:
 
-### 4. Physical Interpretation
+𝐹
+∝
+1
+𝑟
+2
+F∝
+r
+2
+1
+	​
 
-If the same electric influence spreads over a larger spherical surface,
-the intensity must decrease.
 
-Therefore:
-
-$$
-F \propto \frac{1}{r^2}
-$$
-
----
-
-### 5. Connection to Gauss’s Law
-
-From Gauss’s Law:
-
-$$
-\oint \vec{E} \cdot d\vec{A} = \frac{Q}{\epsilon_0}
-$$
-
-For a spherical surface:
-
-$$
-E (4\pi r^2) = \frac{Q}{\epsilon_0}
-$$
-
-Solving for $E$:
-
-$$
-E = \frac{1}{4\pi \epsilon_0} \frac{Q}{r^2}
-$$
-
-This shows that the inverse square law arises from the geometry of space.
-
----
-
-### 6. Personal Insight
-
-At first, I memorized the inverse square law as a formula.
-Later, I understood that it originates from spherical symmetry in three-dimensional space.
+So the inverse square relationship comes from the geometry of three-dimensional space, not just from memorizing a formula.
